@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <link rel="stylesheet" type="text/css" href="css/tube.css" />
+    <script language="JavaScript" src="js/jquery-1.8.2.min.js"></script>
+
+</HEAD>
+
+<BODY>
+
+    <div class="tubeMap" id="zone1">
+        <div class="stationName" id="coventGarden">
+                <span class="term">coventGarden</span>
+        </div>
+        <div class="stationName" id="cannonStreet">
+                <span class="term">cannonStreet</span>
+        </div>
+        <div class="stationName" id="mansionHouse">
+                <span class="term">mansionHouse</span>
+        </div>
+        <div class="stationName" id="blackFriars">
+                <span class="term">blackFriars</span>
+        </div>
+        <div class="stationName" id="oxfordCircus">
+                <span class="term">oxfordCircus</span>
+        </div>
+        <div class="stationName" id="temple">
+                <span class="term">temple</span>
+        </div>
+
+        <img src="london-tube-zone-1.png">
+    </div>
+
+</BODY>
+
+    <script language="JavaScript" src="js/londonTube.js"></script>
+</HTML>

@@ -1,0 +1,50 @@
+1) Days <= 102; criterion = 1, statistic = 101.373
+  2) Days <= 64; criterion = 1, statistic = 143.414
+    3) Days <= 52; criterion = 0.997, statistic = 10.41
+      4)*  weights = 314 
+    3) Days > 52
+      5) White.Box.Rank <= 1; criterion = 1, statistic = 14.175
+        6)*  weights = 15 
+      5) White.Box.Rank > 1
+        7) Days <= 56; criterion = 0.997, statistic = 9.993
+          8)*  weights = 25 
+        7) Days > 56
+          9)*  weights = 50 
+  2) Days > 64
+    10) White.Box.Rank <= 1; criterion = 1, statistic = 114.11
+      11)*  weights = 25 
+    10) White.Box.Rank > 1
+      12) Days <= 87; criterion = 1, statistic = 36.464
+        13) White.Box.Rank <= 7; criterion = 0.99, statistic = 7.929
+          14) Days <= 69; criterion = 1, statistic = 17.496
+            15)*  weights = 8 
+          14) Days > 69
+            16)*  weights = 24 
+        13) White.Box.Rank > 7
+          17) Days <= 77; criterion = 0.997, statistic = 10.386
+            18)*  weights = 30 
+          17) Days > 77
+            19)*  weights = 18 
+      12) Days > 87
+        20) White.Box.Rank <= 7; criterion = 1, statistic = 26.011
+          21)*  weights = 18 
+        20) White.Box.Rank > 7
+          22) White.Box.Rank <= 9; criterion = 0.992, statistic = 8.184
+            23)*  weights = 18 
+          22) White.Box.Rank > 9
+            24)*  weights = 9 
+1) Days > 102
+  25) White.Box.Rank <= 9; criterion = 1, statistic = 17.81
+    26) White.Box.Rank <= 8; criterion = 1, statistic = 17.641
+      27) Days <= 214; criterion = 0.995, statistic = 9.275
+        28)*  weights = 14 
+      27) Days > 214
+        29)*  weights = 23 
+    26) White.Box.Rank > 8
+      30)*  weights = 37 
+  25) White.Box.Rank > 9
+    31) Days <= 234; criterion = 0.957, statistic = 5.272
+      32)*  weights = 56 
+    31) Days > 234
+      33)*  weights = 18 
+

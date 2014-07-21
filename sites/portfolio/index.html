@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2011 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Chrome DevRel Team (chrome-devrel@googlegroups.com)
+                 Alex Russell (slightlyoff@chromium.org)
+                 Brad Neuberg
+                 Faber Fedor (faber@faberfedor.com)
+-->
+<html manifest="cache.appcache">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>A sampling of my work</title>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" />
+    <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled />
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="styles/presentation.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="styles/common.css" rel="stylesheet" type="text/css" media="screen" />
+    <link class="theme" href="styles/default.css" rel="stylesheet" type="text/css" media="screen" />
+    <link class="theme" href="styles/moon.css" rel="stylesheet" type="text/css" media="screen" />
+    <link class="theme" href="styles/sand.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link class="theme" href="styles/sea_wave.css" rel="stylesheet" type="text/css" media="screen"/>
+  </head>
+  <body>
+    <div id="flex-container">
+    <nav id="helpers">
+      <button title="Previous slide" id="nav-prev" class="nav-prev">&#8701;</button>
+      <button title="Jump to a random slide" id="slide-no">5</button>
+      <button title="Next slide" id="nav-next" class="nav-next">&#8702;</button>
+      <menu>
+        <button type="checkbox" data-command="toc" title="Table of Contents" class="toc">TOC</button>
+        <!-- <button type="checkbox" data-command="resources" title="View Related Resources">&#9734;</button> -->
+        <!-- <button type="checkbox" data-command="notes" title="View Slide Notes">&#9999;</button> -->
+        <button type="checkbox" data-command="source" title="View slide source">&#8635;</button>
+        <button type="checkbox" data-command="help" title="View Help">?</button>
+      </menu>
+    </nav>
+    <div class="slides">
+      <div id="presentation-counter">Loading...</div>
+        <div class="slide" id="landing-slide">
+          <section class="middle">
+            <p>A small taste of my work</p>
+            <p>Press <span id="left-init-key" class="key">&rarr;</span> key to advance.</p>
+            <!--
+            <p id="disclaimer-message">Having issues seeing the presentation? Read the <a href="disclaimer.html">disclaimer</a></p>
+            -->
+          </section>
+          <aside class="note">
+            <section>
+              Welcome! (This field is for speaker notes and commentary.)
+            </section>
+          </aside>
+        </div>
+
+        <div class="slide" id="controls-slide">
+          <header>Slides controls</header>
+          <section>
+            <ul>
+              <li><span class="key">&larr;</span> and <span class="key">&rarr;</span> to move around.</li>
+              <li><span class="key">Ctrl/Command</span> and <span class="key">+</span> or <span class="key">-</span> to zoom in and out if slides don’t fit.</li>
+              <li><span class="key">S</span> to view page source.</li>
+              <li><span class="key">T</span> to change the theme.</li>
+              <!-- <li><span class="key">H</span> to toggle syntax highlight.</li> -->
+              <!-- <li><span class="key">N</span> to toggle speaker notes.</li> -->
+              <li><span class="key">3</span> to toggle 3D effect.</li>
+              <li><span class="key">0</span> to toggle help.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="slide" id="title-slide">
+          <section class="middle">
+            <hgroup>
+              <h2>
+                Web apps, not web sites.
+              </h2>
+            </hgroup>
+              <section>
+                <p>I am not a web site designer. I'm a <em>web app
+developer</em>. I don't do design. (I can't.) But I can architect a system,
+build it, monitor it, write documentation for it, and maintain it.</p>
+              </section>
+              <h2>
+                Web Development to the next level
+              </h2>
+          </section>
+        </div>
+
+
+        <div class="slide" id="project-list">
+          <!-- <header>Lorem Ipsum</header> -->
+          <section>
+            <p>I've worked on many diverse projects; I've been at this
+for awhile. Sadly, most of my projects were for clients who are no
+longer around or the projects are behind corporate firewalls.</p>
+            <p>During my CBSi days, I worked on many projects. This
+presentation talks about three of them that have a visual component.
+Those projects are:</p>
+            <ul id="timeline">
+              <li data-auto><span class="year">Bricks</span> </li>
+              <li data-auto><span >Steal This Website!</span> </li>
+              <li data-auto><span class="year">Sentry</span> </li>
+            </ul>
+          </section>
+        </div>
+
+
+        <div class="slide" id="bricks-intro">
+          <header>Bricks</header>
+          <section>
+            <p> Bricks was a web application designed to show off some of
+the internal technologies that my group built. Essentially a glorifed
+RSS-reader, it incoprorated technology like </p>
+            <ul>
+                <li>on-the-fly image resizing</li>
+                <li>Javascript-based widgets</li>
+                <li>customizeable tabs</li>
+                <li>reflow of page elements</li>
+                <li> intelligent article recommendations, etc.</li>
+            </ul>
+ 
+           <p>The name came from the fact that the articles
+acted like "bricks in a wall".</p>
+            <p>This web app consisted of a Javascript front-end talking
+directly to different servers both internally and externally; there was
+no middle layer.
+            <p>It was pretty cool.</p>
+            <p>My role was Lead Engineer and senior Javascript programmer. The
+interface was designed by the then-new CTO's favorite designer.<p>
+          </section>
+        </div>
+
+        <div class="slide" id="bricksFrontPage">
+          <header>Bricks' Front Page</header>
+          <section>
+            <img src="images\Bricks - Main screen cropped.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="bricksArticlePage">
+          <header>Bricks' Article View</header>
+          <section>
+            <img src="images\Bricks - Article View.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="bricksLastSlide">
+          <section>
+            <p> Unfortunately, as often happens in
+the enterprise, we handed off the finished product to be put into
+production and we never heard from it again. &#9785;</p>
+
+          </section>
+        </div>
+
+        <div class="slide" id="StW">
+          <header>Steal This Website!</header>
+          <section>
+            <p>I decided it wasn't enough to show our internal users the
+technology in action, but also <em>how</em> to use it. In other words, we wanted them to "steal"
+our code, so I built this site and placed a "Steal
+This Website!" button at the top of each Bricks page.</p>
+            <p>This is a simple site using Twitter's bootstrap and some
+effects. Really nothing special here but it gives you an idea how we
+pushed for code re-use and documented the technology.
+            </p>
+            <p>I did the design and copy with my colleagues providing
+relevant code samples.</p>
+          </section>
+        </div>
+
+        <div class="slide" id="StWFrontPage">
+          <header>Steal This Website! Front Page</header>
+          <section>
+            <img src="images\Steal This Website - Main Screen cropped.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="StWDynamicTabs">
+          <header>Steal This Website! Dynamic Tabs Example</header>
+          <section>
+            <img src="images\Steal This Website - Dynamic Tabs.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="StWSocialWidget">
+          <header>Steal This Website! Social Widget Example</header>
+          <section>
+            <img src="images\Steal This Website - Social Widget.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="Sentry">
+          <header>Sentry</header>
+          <section>
+            <p>Sentry was my patent-pending system to gather, store, and
+report on third-party cookies being placed on our end-users systems. It
+could process 5,000 URLs per hour via 24 virtual machines. It could even proxy through other
+countries (a Parisian and an Englishman could get different cookies from
+the same website, for example).</p>
+            <p>I was responsible for the whole system: from system
+architecture, to database schema design, to system monitoring, to
+designing the reporting system.</p>
+            <p>The pages that follow show you some of the reporting and
+monitoring screens.</p>
+          </section>
+        </div>
+
+        <div class="slide" id="SentryCookiesReport">
+          <header>Sentry Cookies Report</header>
+          <section>
+            <img src="images\Sentry - Cookies Report.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="SentryCookiesReportOutput">
+          <header>Sentry Cookies Report Output</header>
+          <section>
+            <img src="images\Sentry - Cookies Report Output.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="SentryBakeryStatus">
+          <header>Sentry Bakery Status</header>
+          <section>
+            <img src="images\Sentry - Bakery Status.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="SentryNewGraphs">
+          <header>Sentry Server Monitoring Graphs</header>
+          <section>
+            <img src="images\Sentry - New Graphs.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="SentryMultiGraphs">
+          <header>Sentry Client Monitoring Graphs</header>
+          <section>
+            <img src="images\Sentry - Multi-Graphs.png" width="100%" height="50%">
+          </section>
+        </div>
+
+        <div class="slide" id="Thanks">
+          <header>Thanks for looking!</header>
+          <section>
+            <p>Want to know more? <a
+href="mailto:faberfedor@gmail.com">Email me!</a>
+          </section>
+        </div>
+
+
+
+    </div> <!-- slides -->
+    </div>
+
+    <!--[if lt IE 9]>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">
+    </script>
+    <script>CFInstall.check({ mode: "overlay" });</script>
+    <![endif]-->
+
+    <script src="src/prettify/prettify.js" onload="prettyPrint();" defer></script>
+    <script src="js/utils.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script>
+      // Check if new appcache is available, load it, and reload page.
+      if (window.applicationCache) {
+        window.applicationCache.addEventListener('updateready', function(e) {
+          if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+            window.applicationCache.swapCache();
+            if (confirm('A new version of this site is available. Load it?')) {
+              window.location.reload();
+            }
+          }
+        }, false);
+      }
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-15028909-5']);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

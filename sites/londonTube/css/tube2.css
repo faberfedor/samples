@@ -1,0 +1,440 @@
+body {
+    background-color: #e6e7e9;
+}
+.stationName {
+    border: 1px solid red;
+    position: absolute;
+    opacity: 1;
+    background-color: #d8d8d7;
+    color: #172783;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+
+#Aldgate {
+    top: 10px;
+    left: 3px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#AldgateEast {
+    top: 10px;
+    left: 6px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Angel {
+    top: 10px;
+    left: 9px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#BakerStreet {
+    top: 10px;
+    left: 12px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Bank {
+    top: 10px;
+    left: 15px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Barbican {
+    top: 10px;
+    left: 18px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Blackfriars {
+    top: 453px;
+    left: 775px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#BondStreet {
+    top: 10px;
+    left: 24px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Borough {
+    top: 10px;
+    left: 27px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#CannonStreet {
+    top: 403px;
+    left: 837px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#ChanceryLane {
+    top: 10px;
+    left: 33px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#CharingCross {
+    top: 10px;
+    left: 36px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#CoventGarden {
+    top: 344px;
+    left: 752px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#EarlsCourt {
+    top: 10px;
+    left: 42px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#EdgewareRoad {
+    top: 10px;
+    left: 45px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Elephant&Castle {
+    top: 10px;
+    left: 48px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Embankment {
+    top: 10px;
+    left: 51px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Euston {
+    top: 10px;
+    left: 54px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#EustonSquare {
+    top: 10px;
+    left: 57px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Farringdon {
+    top: 10px;
+    left: 60px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#GloucesterRoad {
+    top: 10px;
+    left: 63px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#GreatPortlandStreet {
+    top: 10px;
+    left: 66px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#GreenPark {
+    top: 10px;
+    left: 69px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#HighStreetKensington {
+    top: 10px;
+    left: 72px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Holborn {
+    top: 10px;
+    left: 75px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Hoxton {
+    top: 10px;
+    left: 78px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#HydeParkCorner {
+    top: 10px;
+    left: 81px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#KingsCross {
+    top: 10px;
+    left: 84px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Knightsbridge {
+    top: 10px;
+    left: 87px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#LambethNorth {
+    top: 10px;
+    left: 90px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#LancasterGate {
+    top: 10px;
+    left: 93px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#LeicesterSquare {
+    top: 10px;
+    left: 96px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#LiverpoolStreet {
+    top: 10px;
+    left: 99px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#LondonBridge {
+    top: 10px;
+    left: 102px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#MansionHouse {
+    top: 429px;
+    left: 807px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#MarbleArch {
+    top: 10px;
+    left: 108px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Marlybone {
+    top: 10px;
+    left: 111px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Monument {
+    top: 10px;
+    left: 114px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Moorgate {
+    top: 10px;
+    left: 117px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#NottingHillGate {
+    top: 10px;
+    left: 120px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#OldStreet {
+    top: 10px;
+    left: 123px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#OxfordCircus {
+    top: 274px;
+    left: 535px;
+    min-width: 10em;
+    text-align: center;
+}
+
+#Paddington {
+    top: 10px;
+    left: 129px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#PiccadillyCircus {
+    top: 10px;
+    left: 132px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Pimlico {
+    top: 10px;
+    left: 135px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Queensway {
+    top: 10px;
+    left: 138px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#ShoreditchHighStreet {
+    top: 10px;
+    left: 141px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#SloaneSquare {
+    top: 10px;
+    left: 144px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#SouthKensington {
+    top: 10px;
+    left: 147px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Southwark {
+    top: 10px;
+    left: 150px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#St.JamesPark {
+    top: 10px;
+    left: 153px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#St.Pauls {
+    top: 10px;
+    left: 156px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Temple {
+    top: 479px;
+    left: 772px;
+    min-width: 10em;
+    text-align: center;
+}
+
+#TottenhamCourtRoad {
+    top: 10px;
+    left: 162px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#TowerGateway {
+    top: 10px;
+    left: 165px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#TowerHill {
+    top: 10px;
+    left: 168px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Vauxhall {
+    top: 10px;
+    left: 171px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Victoria {
+    top: 10px;
+    left: 174px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#WarrenStreet {
+    top: 10px;
+    left: 177px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Waterloo {
+    top: 10px;
+    left: 180px;
+    min-width: 10em;
+    text-align: right;
+}
+
+#Westminster {
+    top: 10px;
+    left: 183px;
+    min-width: 10em;
+    text-align: right;
+}

@@ -1,0 +1,13 @@
+To print out terminal nodes 14 and 15 from the file treet2.txt: 
+
+    python printPaths.py tree2.txt '[14, 15]'
+
+To redirect the output to a file:
+
+    python printPaths.py tree2.txt '[14, 15]' > output.txt
+
+If you pass in a non-terminal node, a message saying that it's
+not a terminal node will be printed and the next nodeId 
+will be processed.
+
+
