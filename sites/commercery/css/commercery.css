@@ -1,0 +1,75 @@
+myNavBar {
+	background-color: white;
+}
+
+.banner {
+    background: url('../img/picket_fence2.png');
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-size: cover;
+    background-color: #7f7f7f;
+    background-size: 146px 125px;
+    height: 111px;
+}
+
+.headline {
+	background-color: #7f7f7f;
+    height: 100px;
+    text-align: center;
+	color: white;
+	font-size: 300%;
+	padding: 100px 0 100px 0;
+}
+
+.findIt {
+	padding: 60px 0 60px 0;
+}
+
+.findIt > span {
+	font-size: 200%;
+	text-align: center;
+	display:block;
+    height: 100%;
+    margin: 0 auto; 
+}
+
+.departments {
+    /* change to margins */
+	margin: 0 0 25px 0;
+}
+
+.newsRow {
+	background-color: #f2f2f2;
+	/*margin: 100px 0 75px 0;*/
+	padding: 25px 0 25px 0;	
+}
+
+.newsICon{
+	/*margin-right: 20px;*/
+}
+footer > div > ul
+{
+    list-style-type: none;
+    color: #7f7f7f;
+    font-weight: bold;
+}
+
+footer > div > ul > li
+{
+    padding-left: 1em;
+    font-weight: normal;
+}
+
+.newsHeaders > span {
+	font-weight: bold;
+}
+
+.newsIcons {
+	padding-left: 15px;
+}
+
+.headline {
+
+}
+
+
