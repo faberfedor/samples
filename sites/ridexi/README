@@ -1,0 +1,23 @@
+"Always throw the prototype away & start over, because you will throw it
+away eventually, and doing so early saves time and effort." -Brooks.
+
+This is a little proof of concept idea, i.e. a prototype. I want to
+create an website/app to do something like Uber does. Why? I'm
+doing someone a favor.
+
+This is not polished code. It's something I'm doing for fun.
+don't judge my coding abilities until this thing is done, which it may
+never be. If it does get finished, I'll throw it away as per Brooks.
+
+To see this POC in action, go to http://faberfedor.com/gennady.
+Click the "Sign in" button (ignore the user name and password"). 
+This will take you to a Google Maps page. If you click the "Find Car Services".
+you will be shown three car services near the beginning location (369 avenue y
+brooklyn) which will take you to the destination (statue of liberty). Clicking
+on the car service markers will show you the name, cost, etc.
+
+This only works for Brooklyn and Somerville, NJ. Try typing in '1 East Main Street, 
+Somerville, NJ" and "Grounds for Sculpture".
+
+- Faber Fedor (faber@faberfedor.com) 2014-08-14
+

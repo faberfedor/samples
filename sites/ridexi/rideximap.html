@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    	This is part of the RideXi prototype website. It is meant to be used to show
+    	consumers and companies how the product will work. It is not fully functional (more 
+    	like "barely functional").
+    	
+    	- Faber Fedor (faber@faberfedor.com) 2014-08-14
+    -->
+    <!-- Google Maps stuff -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding-top: 70px }
+      #map-canvas { height: 500px }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzZAd3vUKX8tmcxVb4HI37YGjKupPV5Dg">
+    </script>
+    <script type="text/javascript" src="js/carCompanies.js"></script>
+    <script type="text/javascript" src="js/ridexi_prototype.js"></script>
+    <link rel="stylesheet" href="css/ridexi.css">
+    <!-- end of Google Maps stuff -->
+   
+    <!-- bootstrap related stuff here --> 
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- end of Boostrap stuff -->
+   
+
+   <title>RideXi - Choose who to travel with</title>
+  </head>
+  <body>
+ 
+	<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	    <div class="container">
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#">RideXi</a>
+	        </div>
+	        
+	        <div class="collapse navbar-collapse" id="navbarCollapse">
+	            <ul class="nav navbar-nav">
+	                <li class="active"><a href="#" target="_blank">Home</a></li>
+	                <li><a href="aboutus.php" target="_blank">About</a></li>
+	                 <li><a href="contactus.php" target="_blank">Contact</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</nav>
+
+	<div class="container">
+	    <div class="row">
+			<div class="im-centered">
+				<form class="form-inline" role="form" onSubmit="getDistance(); return false;">
+					<div class="form-group">
+						<label class="sr-only" for="address1">Start Address</label>
+						<input type="address" class="form-control" id="address1" value="369 avenue y brooklyn">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="address2">Destination</label>
+						<input type="address" class="form-control" id="address2" value="statue of liberty">
+					</div>
+					
+					<button type="submit" class="btn btn-primary">Find Car Services</button>
+                    
+				</form>
+
+				    <p id="results"></p>
+			</div>
+	    </div>
+	    
+	    
+	        <div id="map-canvas"/>
+	    
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,12 @@
+#map-canvas {
+    padding-top: 200px;
+}
+
+.im-centered { 
+	margin: auto; 
+	max-width: 300px;
+}
+
+#results {
+	display: none;
+}
